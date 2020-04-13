@@ -12,6 +12,8 @@ The old Linux kernel source ver 0.11 which has been tested under modern Linux,  
 * a linux-0.11 hardware image file: hdc-0.11.img, please download it from http://www.oldlinux.org, or http://mirror.lzu.edu.cn/os/oldlinux.org/, ant put it in the root directory.
 * Now, This version already support the Ubuntu 16.04, enjoy it.
 
+# sudo apt-get install vim qemu
+
 ### 1.2. hack linux-0.11
 ```bash
 $ make help		// get help

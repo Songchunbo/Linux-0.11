@@ -234,3 +234,9 @@ int sys_umask(int mask)
 	current->umask = mask & 0777;
 	return (old);
 }
+
+int sys_hello()
+{
+    printk("hello chunbo\n");
+    return 0;
+}
