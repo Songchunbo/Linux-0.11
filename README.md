@@ -29,8 +29,10 @@ $ gdb tools/system
 ```
 ### 1.3 put test file to fs
 
+```bash
 $ losetup -o 512 /dev/loop0 hdc-0.11.img
 $ mount /dev/loop0 /mnt/test
+```
 
 ## 2. Build on Mac OS X
 
